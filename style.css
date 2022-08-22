@@ -254,11 +254,55 @@
 
 @media (max-width:770px) {
     .container #nav {
-        height: 6vh;
+        height: 5vh;
     }
 
     .container #nav #ul .navLi {
-        font-size: 3em;
+        font-size: 2.5em;
         margin: 0px 25px 0px 50px;
+    }
+}
+
+@media (max-width:650px) {
+    .container #nav {
+        height: 5vh;
+    }
+
+    .container #nav #ul .navLi {
+        font-size: 2em;
+        margin: 0px 20px 0px 40px;
+    }
+}
+
+@media (max-width:515px) {
+    .container #nav {
+        height: 5vh;
+    }
+
+    .container #nav #ul .navLi {
+        font-size: 1.7em;
+        margin: 0px 15px 0px 35px;
+    }
+}
+
+@media (max-width:440px) {
+    .container #nav {
+        height: 4vh;
+    }
+
+    .container #nav #ul .navLi {
+        font-size: 1.5em;
+        margin: 0px 15px 0px 15px;
+    }
+}
+
+@media (max-width:350px) {
+    .container #nav {
+        height: 4vh;
+    }
+
+    .container #nav #ul .navLi {
+        font-size: 1.3em;
+        margin: 0px 10px 0px 10px;
     }
 }
